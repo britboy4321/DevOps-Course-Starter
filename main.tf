@@ -60,6 +60,7 @@ resource "azurerm_app_service" "main" {
         "WEBSITES_CONTAINER_START_TIME_LIMIT" = "1400"
         "WEBSITES_ENABLE_APP_SERVICE_STORAGE" = "false"
         "OAUTHLIB_INSECURE_TRANSPORT"="1"
+
   }
 }
 
